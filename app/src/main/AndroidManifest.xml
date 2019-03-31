@@ -41,7 +41,7 @@
         <service
             android:name=".notifications.JellybeanNotificationListener"
             android:enabled="@bool/supportsNotificationCenter"
-            android:label="Dialer for Pebble"
+            android:label="Dialer for Rebble"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
